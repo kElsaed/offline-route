@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "3c310685-3fce-4011-a697-ab5f918401a3",
+		"name": "offline_route",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38395665"
+	},
+	"item": [
+		{
+			"name": "route",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"graph\": \"D:\\\\12 _ ofline-route\\\\files\\\\Riyadh 2.pickle\" ,\r\n    \"start\" : [ 46.6142281225803,24.827254623865255],\r\n    \"end\" : [ 46.93309489801932,26.50560539905626]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/offline_route",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"offline_route"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
